@@ -77,7 +77,7 @@ local.properties
 
 # User-specific stuff
 .idea/
-.iml
+*.iml
 out/
 
 # sbt-idea plugin
