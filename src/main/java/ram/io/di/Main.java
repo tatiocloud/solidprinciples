@@ -1,5 +1,8 @@
 package ram.io.di;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,5 +14,7 @@ public class Main {
         payroll.setWorker(new Director());
 
         payroll.manage();
+
+        Map<String,String> map = new HashMap<>();
     }
 }
